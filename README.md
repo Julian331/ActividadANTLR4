@@ -1,4 +1,5 @@
 # ActividadANTLR4
+
 # Ejemplo Diapositiva
 Archivos principales
 - *.g4 → Gramática correspondiente.
@@ -8,7 +9,8 @@ Ejecución
 antlr4 -visitor Nombre.g4
 javac -cp .:/usr/share/java/antlr4-runtime.jar *.java
 java -cp .:/usr/share/java/antlr4-runtime.jar ClasePrincipal < prueba.txt
-Calculadora (Capítulo 4)
+
+# Calculadora (Capítulo 4)
 Archivos principales
 - Calc.g4 → Gramática de la calculadora.
 - EvalVisitor.java → Visitor personalizado para evaluar expresiones.
